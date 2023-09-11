@@ -1,7 +1,7 @@
 import React from 'react';
 import { useForm, SubmitHandler } from 'react-hook-form';
-import { Input } from '../../UI/Input/Input';
-import { Button } from '../../UI/Button/Button';
+import { Input } from '../../shared/UI/Input/Input';
+import { Button } from '../../shared/UI/Button/Button';
 import './RegistrationFrom.scss';
 
 interface IRegistForm {

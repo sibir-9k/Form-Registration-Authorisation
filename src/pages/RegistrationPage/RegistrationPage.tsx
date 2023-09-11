@@ -1,5 +1,6 @@
 import React from 'react';
-import { RegistrationForm } from '../components/Regist-Form/RegistrationForm';
+import { Link } from 'react-router-dom';
+import { RegistrationForm } from '../../components/Regist-Form/RegistrationForm';
 import './RegistrationPage.scss';
 
 export const RegistrationPage = () => {
@@ -9,7 +10,9 @@ export const RegistrationPage = () => {
 				<h1>Регистрация</h1>
 				<RegistrationForm />
 			</div>
-			<span> Уже зарегистрированы? <a href="">Войти</a> </span>
+			<span>
+				Уже зарегистрированы? <Link to={'/auth'}>Войти</Link>
+			</span>
 		</>
 	);
 };
