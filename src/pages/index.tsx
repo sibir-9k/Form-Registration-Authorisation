@@ -1,8 +1,8 @@
-import React from 'react';
+import { FC } from 'react';
 import { Routes, Route } from 'react-router';
-import { RegistrationPage } from './RegistrationPage/RegistrationPage';
+import { RegistrationPage } from './registration-page/RegistrationPage';
 
-export const Routing = () => {
+export const Routing: FC = () => {
 	return (
 		<Routes>
 			<Route path="/" element={<RegistrationPage />}></Route>

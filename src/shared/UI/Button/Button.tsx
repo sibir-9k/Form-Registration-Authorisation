@@ -1,10 +1,6 @@
-import React from 'react';
-import './Button.scss'
+import { FC, PropsWithChildren } from 'react';
+import './Button.module.scss';
 
-interface BtnProps {
-	text: string;
-}
+interface BtnProps extends PropsWithChildren<unknown> {}
 
-export const Button: React.FC<BtnProps> = ({ text }) => {
-	return <button>{text}</button>;
-};
+export const Button: FC<BtnProps> = ({ children }) => <button>{children}</button>;

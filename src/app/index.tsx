@@ -1,6 +1,6 @@
-import { RegistrationPage } from './pages/RegistrationPage/RegistrationPage';
+import { RegistrationPage } from 'pages/registration-page/RegistrationPage';
 
-import './App.css';
+import './index.css';
 
 function App() {
 	return (
