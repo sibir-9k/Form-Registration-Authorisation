@@ -1,9 +1,10 @@
+@import url(../../../app/index.css);
 button {
 	padding: 16px 20px;
 	border-radius: 12px;
-	background: #00b627;
+	background: var(--color-btn-default);
 	border: inherit;
-  width: 100%;
+	width: 100%;
 
 	color: #fff;
 	text-align: center;

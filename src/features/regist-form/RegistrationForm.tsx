@@ -24,7 +24,7 @@ export const RegistrationForm: FC = () => {
 	return (
 		<form onSubmit={() => handleSubmit(submit)}>
 			<Input type="text" {...register('email')} placeholder="E-mail" />
-			<div>{errors?.email && <p>Error!</p>}</div>
+			{/* <div>{errors?.email && <p>Error!</p>}</div> */}
 			<Input type="password" {...register('password')} placeholder="Придумайте пароль" />
 			<Input type="password" {...register('password')} placeholder="Повторите пароль" />
 			<Button>Зарегистрироваться</Button>
