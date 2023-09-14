@@ -1,0 +1,16 @@
+@import url(../../../app/index.css);
+button {
+	padding: 16px 20px;
+	border-radius: 12px;
+	background: var(--color-btn-default);
+	border: inherit;
+	width: 100%;
+
+	color: #fff;
+	text-align: center;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 16px; /* 100% */
+}

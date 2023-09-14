@@ -1,0 +1,11 @@
+:root {
+	--color-btn-default: #00b627;
+	--color-btn-hover: #0c9e12;
+	--color-btn-focus: #00b627;
+
+	--border-color-input-default: #f0f0f0;
+	--border-color-input-focus: #6fd273;
+	--border-color-input-error: #ff404b;
+
+	--color-text-error: #ff404b;
+}
